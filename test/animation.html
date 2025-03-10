@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: yellowgreen;
+      }
+      .box {
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation-name: sakib;
+        /* animation-name: sakib1; */
+        animation-duration: 3s;
+        /* animation-iteration-count: infinite; */
+        /* animation-fill-mode: forwards; */
+        /* animation-fill-mode: alternate; */
+        /* animation-timing-function: ease-in;
+        animation-timing-function: ease-out; */
+        animation-delay: 3s;
+        
+      }
+      @keyframes sakib {
+        0% {
+          top:0px;
+          left:0px
+        }
+        25% {
+         top:200px;
+         left:0px;
+        }
+        75% {
+         top:200px;
+         left:200px
+        }
+        100% {
+          top:0px;
+          left:200px;
+        }
+      }
+
+      @keyframes sakib1 {
+        from {
+          width: 0px;
+        }
+        to {
+          width: 800px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">This is a box</div>
+    </div>
+  </body>
+</html>
