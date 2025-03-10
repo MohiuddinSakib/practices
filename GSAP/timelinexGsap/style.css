@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Roboto', sans-serif; */
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+background-image:url(https://img.freepik.com/free-photo/fuji-mountain-kawaguchiko-lake-sunset-autumn-seasons-fuji-mountain-yamanachi-japan_335224-1.jpg?t=st=1740543633~exp=1740547233~hmac=8b676f520addc669db554e8b43c95b8c8d73bf0ba5bf7b5a4c0308175a6eb60a&w=1380);
+background-size: cover;
+background-position: center;
+background-repeat:"no-repeat";
+}
+
+.nav{
+    display:flex;
+justify-content: space-between;
+align-items:center;
+padding:1vh;
+}
+
+.nav h1{
+    /* color: white; */
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.nav i{
+font-size:30px;
+cursor:pointer;
+}
+
+.full{
+    height:100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.283);
+    top:0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding:150px 50px
+}
+.full h4{
+    font-size:30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.full i{
+    position: absolute;
+    top:5px;
+    left:5px;
+    backdrop-filter: blur(10px);
+    background-color: inherit;
+    padding: 5px;
+    font-weight: 5px;
+    border-radius: 50%;
+}
