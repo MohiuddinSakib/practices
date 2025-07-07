@@ -15,7 +15,7 @@ string.addEventListener('mousemove',(dets)=>{
         }
     })
 })
-
+ 
 
 string.addEventListener('mouseleave',()=>{
     gsap.to('svg path',{
